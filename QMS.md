@@ -22,6 +22,6 @@ This Quality Management System (QMS) is designed in accordance with the requirem
 
 ## QMS Responsible Person
 
-**Name:** Product Owner  
-**Role:** QMS Coordinator  
-**Contact:** qms@examplecompany.com
+**Name:** David  
+**Role:** Compliance Coordinator  
+**Contact:** support@kaddio.com
