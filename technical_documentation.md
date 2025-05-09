@@ -42,7 +42,7 @@ Our risk management process includes:
 
 Risk assessments are reviewed before every major release.
 
-The identified risks and their mitigations are documented in our Risk Management System: [RiskManagementSystem]
+The identified risks and their mitigations are documented in our Risk Management System: [Risk management system](risk_management_system.md)
 
 ---
 
