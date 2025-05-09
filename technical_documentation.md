@@ -8,7 +8,7 @@ Address: Linnégatan 5, Göteborg, Sweden
 
 Description: 
 
-Kaddio is an electronic record management system with modules for booking, invoicing, communication and AI-driven summarization of journals. 
+Kaddio is a web based electronic record management system with modules for booking, invoicing, communication and AI-driven summarization of journals. There is only one installation of the product always with the latest version, no other versions are on the market. 
 
 Intended purpose:
 
@@ -73,10 +73,13 @@ Software Items:
 Full documentation of the system is kept up to date here: [System documentation and help pages](http://help.kaddio.com/help)
 
 Verification/Validation:
+
+In order to ensure repeatablity, security, stability Kaddio continuously perform:
 - Exploratory testing of every new feature and bug fix
 - Autmoatic unit & integration testing
 - Dataset-based AI validation
 - Manual test cases for clinical scenarios
+- When deemed necessary: Load tests performed on production like anonymized data
 
 Usability:
 - The product owners are responsible for the usability and checks the designs regularly with the users of the system.
@@ -88,17 +91,18 @@ A comprehensive regression test suite is run before every release. It is documen
 The development life cycle:
 
  1. Issue or feature identified and filed in ticket system
- 2. If deemed necessary: design review of solution with product owners and technical representatives
- 3. If deemed necessary: technical refinement in technical lead group
- 4. Development with iterations back to product owners or technical lead group if deemed necessary
- 5. Exploratory testing of the issue/feature and acceptance from a tester and/or product owner
- 6. Code review by other developer
- 7. Merge to release candidate
- 8. Code freeze of release candidate at least 24h before release
- 9. Regression testing of release candidate
-10. If necessary: patching of issues found in regression testing
-11. Release of code to staging environment
-12. If everything is fine: promotion of staging deploy to production
+ 2. Risk analysis is performed and noted in the ticket system
+ 3. If deemed necessary: design review of solution with product owners and technical representatives
+ 4. If deemed necessary: technical refinement in technical lead group to ensure performance, stability and security
+ 5. Development with iterations back to product owners or technical lead group if deemed necessary
+ 6. Exploratory testing of the issue/feature and acceptance from a tester and/or product owner
+ 7. Code review by other developer
+ 8. Merge to release candidate
+ 9. Code freeze of release candidate at least 24h before release
+10. Regression testing of release candidate
+11. If necessary: patching of issues found in regression testing
+12. Release of code to staging environment
+13. If everything is fine: promotion of staging deploy to production
 
 ---
 
