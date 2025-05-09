@@ -56,7 +56,7 @@ Software Items:
 - AI module (transcription, summarisation)
 - Admin interface
 
-Full documentation of the system is kept up to date here: http://help.kaddio.com/help
+Full documentation of the system is kept up to date here: [System documentation and help pages](http://help.kaddio.com/help)
 
 Verification/Validation:
 - Exploratory testing of every new feature and bug fix
@@ -64,7 +64,7 @@ Verification/Validation:
 - Dataset-based AI validation
 - Manual test cases for clinical scenarios
 
-A comprehensive regression test suite is run before every release. It is documented here (internal link): https://github.com/kaddio/kaddio/wiki/Test-av-release-%E2%80%90-MALL 
+A comprehensive regression test suite is run before every release. It is documented here (internal link): [Regression test suite](https://github.com/kaddio/kaddio/wiki/Test-av-release-%E2%80%90-MALL)
 
 The development life cycle:
 
@@ -96,7 +96,7 @@ The development life cycle:
 
 Objectives: Monitor performance and identify emerging risks.
 Sources:
-- User feedback via ticketing system https://github.com/kaddio/kaddio/issues
+- User feedback via mail and phone tracked in internal ticketing system: [Github issues](https://github.com/kaddio/kaddio/issues)
 - AI misprediction logs
 - Performance metrics
 
@@ -135,5 +135,5 @@ User Instructions:
 - **Support Hours**: Monday–Friday, 09:00–15:00 (TZ Europe/Stockholm).
 - **Maintenance Plan**:
   - Regular updates every week.
-- **User Training**: Online onboarding guides, video tutorials, and webinars available for all users. http://help.kaddio.com/help
-- **Software Lifecycle**: Version control and update logs maintained and archived for 1 year post last update. https://kaddio.com/changelog
+- **User Training**: Online onboarding guides, video tutorials, and webinars available for all users. [System documentation and help pages](http://help.kaddio.com/help)
+- **Software Lifecycle**: Version control and update logs maintained and archived for 1 year post last update. [Changelog](https://kaddio.com/changelog)
