@@ -1,0 +1,139 @@
+# MDR Technical Documentation
+
+## 1. General Safety and Performance Requirements (GSPR) Checklist
+
+| GSPR Requirement | Description                                      | How It Is Met                                      |
+|-------------------|--------------------------------------------------|---------------------------------------------------|
+| 1                 | Device must be safe and perform as intended     | Risk analysis, user testing, software verification |
+| 5                 | Eliminate/reduce risks through design           | Clear, intuitive UI, AI outputs are suggestions only |
+| 14.2              | Software lifecycle, risk management             | Follows standard software development processes  |
+| 17                | Electronic programmable systems                 | Secure development process, audit trail, logging |
+| 18                | Protection against mechanical/electrical risks  | Not applicable (non-contact software)            |
+| 19.1              | IT security measures                            | Data encryption, access control, audit logs      |
+| 23                | Information provided with device                | Online help, AI disclaimer in UI    |
+
+---
+
+## 2. Declaration of Conformity (DoC)
+
+Manufacturer: Kaddio AB
+Address: Linnégatan 5, Göteborg, Sweden
+
+- Product Name: Kaddio
+- Model/Version: Latest version
+- Basic UDI-DI: kaddio-latest-version
+- Classification: Class I
+
+We hereby declare that the above device meets the provisions of:
+- Regulation (EU) 2017/745 on medical devices
+
+---
+
+## 3. Risk Management Summary
+
+Our risk management process includes:
+
+1. Hazard identification (e.g. data loss, downtime).
+2. Risk analysis and evaluation (based on likelihood and severity).
+3. Risk control (e.g. backups, security audits).
+4. Verification of controls.
+5. Residual risk evaluation and benefit-risk analysis.
+6. Ongoing risk monitoring via support feedback and incident reports.
+
+Risk assessments are reviewed before every major release.
+
+The identified risks and their mitigations are documented in our Risk Management System: [RiskManagementSystem]
+
+---
+
+## 4. Software Development and Validation
+
+Lifecycle Model: Agile
+Tools Used: NodeJS, MongoDB, SvelteJS, AngularJS, zx
+
+Software Items:
+- Core EMR functionality
+- AI module (transcription, summarisation)
+- Admin interface
+
+Full documentation of the system is kept up to date here: [SystemDocumentation]
+
+Verification/Validation:
+- Exploratory testing of every new feature and bug fix
+- Autmoatic unit & integration testing
+- Dataset-based AI validation
+- Manual test cases for clinical scenarios
+
+A comprehensive regression test suite is run before every release. It is documented here: [RegressionSuite]
+
+The development life cycle:
+
+ 1. Issue or feature identified and filed in ticket system
+ 2. If deemed necessary: design review of solution with product owners and technical representatives
+ 3. If deemed necessary: technical refinement in technical lead group
+ 4. Development with iterations back to product owners or technical lead group if deemed necessary
+ 5. Exploratory testing of the issue/feature and acceptance from a tester and/or product owner
+ 6. Code review by other developer
+ 7. Merge to release candidate
+ 8. Code freeze of release candidate at least 24h before release
+ 9. Regression testing of release candidate
+10. If necessary: patching of issues found in regression testing
+11. Release of code to staging environment
+12. If everything is fine: promotion of staging deploy to production
+
+---
+
+## 5. Clinical Evaluation Summary (Annex XIV)
+
+- Clinical data derived from published literature of similar AI-powered EMR systems.
+- No new clinical investigation conducted due to equivalence and low-risk profile.
+- AI module is not autonomous and not to be used for decision-support, only to summarize and transcribe information written och spoken by the clinical practitioner.
+- Post-market clinical follow-up (PMCF) planned via user feedback and software update logs.
+
+---
+
+## 6. Post-Market Surveillance Plan (PMS)
+
+Objectives: Monitor performance and identify emerging risks.
+Sources:
+- User feedback via ticketing system [LinkToGithub]
+- AI misprediction logs
+- Performance metrics
+
+Actions:
+- Quarterly review of incident trends
+- Annual PMS report
+- Corrective software updates as required
+
+---
+
+## 7. Instructions for Use (IFU)
+
+Product: Kaddio
+Version: Latest version kaddio.com
+Manufacturer: Kaddio AB
+
+Purpose:
+An electronic medical record system with AI-supported decision support for [e.g., summarisation, transcription].
+
+Requirements:
+[Terms of Service](https://kaddio.com/legal/tos)
+
+Warnings:
+- AI suggestions are not a substitute for clinical judgment.
+- The system does not autonomously diagnose or prescribe.
+
+User Instructions:
+1. Log in using secure credentials
+2. Enter patient data or select existing record
+3. Review AI-supported summarisation (marked with red)
+4. Override or confirm suggestions manually
+
+## 8. Software Support and Maintenance
+
+- **Support Channels**: Users can access support as described in [Terms of Service](https://kaddio.com/legal/tos)
+- **Support Hours**: Monday–Friday, 09:00–15:00 (TZ Europe/Stockholm).
+- **Maintenance Plan**:
+  - Regular updates every week.
+- **User Training**: Online onboarding guides, video tutorials, and webinars available for all users. [SystemDocumentation]
+- **Software Lifecycle**: Version control and update logs maintained and archived for 1 year post last update. [ChangeLog]
