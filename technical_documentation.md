@@ -119,7 +119,7 @@ The development life cycle:
 
 Objectives: Monitor performance and identify emerging risks.
 Sources:
-- User feedback via mail and phone tracked in internal ticketing system: [Github issues](https://github.com/kaddio/kaddio/issues)
+- User feedback via mail and phone tracked in internal ticketing system
 - AI misprediction logs
 - Performance metrics
 
