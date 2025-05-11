@@ -98,7 +98,7 @@ The development life cycle:
  6. Exploratory testing of the issue/feature and acceptance from a tester and/or product owner
  7. Code review by other developer
  8. Merge to release candidate
- 9. Code freeze of release candidate at least 24h before release
+ 9. Code freeze of release candidate at least 72h before release
 10. Regression testing of release candidate
 11. If necessary: patching of issues found in regression testing
 12. Release of code to staging environment
