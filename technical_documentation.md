@@ -27,6 +27,8 @@ Address: Linnégatan 5, Göteborg, Sweden
 We hereby declare that the above device meets the provisions of:
 - Regulation (EU) 2017/745 on medical devices
 
+[Download a signed DoC](mdr-declaration-of-conformity.pdf)
+
 ---
 
 ## 3. Risk Management Summary
