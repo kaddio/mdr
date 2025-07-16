@@ -35,7 +35,6 @@ Address: Linnégatan 5, Göteborg, Sweden
 
 - Product Name: Kaddio
 - Model/Version: Latest version
-- Basic UDI-DI: kaddio-latest-version
 - Classification: Class I
 
 We hereby declare that the above device meets the provisions of:
@@ -65,10 +64,12 @@ The identified risks and their mitigations are documented in our Risk Management
 ## 5. Software Development and Validation
 
 Lifecycle Model: Agile
-Tools Used: NodeJS, MongoDB, SvelteJS, AngularJS, zx
+Tools Used: NodeJS, MongoDB, SvelteJS, AngularJS, Meteor, Compass, Cursor, VS Code etc.
 
 Software Items:
 - Core EMR functionality
+- Booking and calendar functionality
+- Communication, video and chat
 - AI module (transcription, summarisation)
 - Admin interface
 
@@ -76,12 +77,12 @@ Full documentation of the system is kept up to date here: [System documentation 
 
 Verification/Validation:
 
-In order to ensure repeatablity, security, stability Kaddio continuously perform:
+In order to ensure repeatablity, security and stability Kaddio continuously perform:
 - Exploratory testing of every new feature and bug fix
-- Autmoatic unit & integration testing
+- Automatic unit & integration testing
 - Dataset-based AI validation
 - Manual test cases for clinical scenarios
-- When deemed necessary: Load tests performed on production like anonymized data
+- When deemed necessary: Load tests performed on anonymized production like data
 
 Usability:
 - The product owners are responsible for the usability and checks the designs regularly with the users of the system.
@@ -110,9 +111,9 @@ The development life cycle:
 
 ## 6. Clinical Evaluation Summary (Annex XIV)
 
-- Clinical data derived from published literature of similar AI-powered EMR systems.
+- Clinical data derived from published literature of similar EMR systems.
 - No new clinical investigation conducted due to equivalence and low-risk profile.
-- AI module is not autonomous and not to be used for decision-support, only to summarize and transcribe information written och spoken by the clinical practitioner.
+- AI module is not autonomous and not to be used for decision-support, only to summarize and transcribe information written and spoken by the clinical practitioner.
 - Post-market clinical follow-up (PMCF) planned via user feedback and software update logs.
 
 ---

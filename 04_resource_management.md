@@ -4,7 +4,7 @@
 
 Roles:
 - Developers: implement system features and fixes.
-- Product owners/testers: specify requirements, write test cases, verify outputs.
+- Product owners/testers: specify requirements, verify outputs.
 - Support technician: handle user feedback and incidents.
 
 All staff receive initial and annual training on QMS and relevant standards.
